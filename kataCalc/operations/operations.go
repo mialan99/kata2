@@ -40,7 +40,7 @@ func Multiply(a, b string) string {
 	if len(result) > 40 {
 		result = result[0:40] + "..."
 	}
-	return " + result + "
+	return `"` + result + `"`
 }
 
 func Div(a, b string) string {
